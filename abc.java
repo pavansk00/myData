@@ -1,14 +1,9 @@
-public class abc {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		int tmp=10;
-		int a=0;
-		for(int i=0;i<=tmp;i++)
-		{
-		 a=i+a;	
-		}
-	System.out.println("addition is:"+a);
-	}
-	
+class HelloWorld
+{
+    // Your program begins with a call to main().
+    // Prints "Hello, World" to the terminal window.
+    public static void main(String args[])
+    {
+        System.out.println("Hello, World");
+    }
 }
